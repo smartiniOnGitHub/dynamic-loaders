@@ -1,0 +1,2 @@
+# List implementations of dynamicloaders.plugin.sample.TimePlugin class provided here, to be loaded via ServiceLoader
+dynamicloaders.plugin.sample.TimePlugin
