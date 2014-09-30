@@ -19,19 +19,20 @@
 *.bak
 *.class
 Thumbs.db
-/*.db
-/*.zip
-/*.tar
-/*.tar.gz
-/*.ser
-/_old/
-/bin/
+*.db
+*.zip
+*.tar
+*.tar.gz
+*.ser
+_old
+bin
+build
 classes
-/dist/
-/out/
-/private/
-# /server/
-/target/
-/target-eclipse/
-/temp/
-/tmp/
+dist
+out
+private
+# server
+target
+target-eclipse
+temp
+tmp
