@@ -16,6 +16,7 @@
  */
 allprojects {
 	apply plugin: "java"
+	apply plugin: "eclipse"
 
 	buildDir = 'target'
 	sourceCompatibility = 1.7
