@@ -14,37 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-allprojects {
-	apply plugin: "java"
-	apply plugin: "eclipse"
+apply plugin: "java"
 
-	buildDir = 'target'
-	sourceCompatibility = 1.7
-	targetCompatibility = 1.7
-
-	group = "dynamicloaders"
-	version = "1.0"
-
+dependencies {
 }
-
-subprojects {
-	apply plugin: "java"
-
-	repositories {
-		mavenLocal()
-		mavenCentral()
-		// jcenter()
-	}
-
-	ext {
-		junitVersion = '4.12'
-	}
-
-	dependencies {
-		testCompile "junit:junit:$junitVersion"	
-	}
-
-}
-
-
-task info << { task -> println "In $task.project.name" }
